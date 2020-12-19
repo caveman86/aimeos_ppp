@@ -14,3 +14,4 @@
 Auth::routes();
 
 Route::get('/', '\Aimeos\Shop\Controller\CatalogController@homeAction')->name('aimeos_home');
+// Route::get('/akkam', '\Aimeos\ext\ppp\Controller\common\akkamController@indexAction')->name('akkam');
